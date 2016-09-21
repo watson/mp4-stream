@@ -21,8 +21,6 @@ function Decoder () {
   this._ondrain = null
   this._writeBuffer = null
   this._writeCb = null
-
-  this._ondrain = null
   this._kick()
 }
 
